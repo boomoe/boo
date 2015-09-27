@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    defi (1.1.0)
+    fix (0.12.2)
+      defi (~> 1.1.0)
+      spectus (~> 2.7.0)
+    fix-its (0.3.0)
+      fix (~> 0.12.0)
+    hobbit (0.6.0)
+      rack
+    hobbit-contrib (0.7.1)
+      hobbit
+    matchi (0.0.9)
+    puma (2.14.0)
+    rack (1.6.4)
+    rack-cache (1.2)
+      rack (>= 0.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.4.2)
+    spectus (2.7.0)
+      defi (~> 1.1.0)
+      matchi (~> 0.0.9)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fix-its (~> 0.3.0)
+  hobbit (~> 0.6.0)
+  hobbit-contrib
+  puma (~> 2.14.0)
+  rack-cache (~> 1.2)
+  rack-test (~> 0.6.3)
+  rake
+  tilt
+
+BUNDLED WITH
+   1.10.6
